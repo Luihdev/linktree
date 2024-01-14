@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+@keyframes animacao {
+    from{background-color: #5486;}
+    to{background-color: antiquewhite;}
+}
+
+html {
+    height: 100%;
+}
+
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+margin-top: 50px;
+margin-bottom: 20px;
+box-shadow: to top 1px 1px 1px black ;
+width: 150px;
+height: 150px;
+
+}
+h1, p {
+    text-align: center;
+    font-size: 1,4em;
+    margin-bottom: 15px;
+}
+h1 {
+    font-family: instrument Serif;
+    font-size: 2em;
+}
+p { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bolder;
+    
+}
+
+
+
+
+a {
+   text-decoration: none;
+   
+   
+}
+
+button {
+    width: 400px;
+    height: 40px;
+    border-radius: 40px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: aliceblue;
+    border-color: black;
+    border-style:double;
+    animation-duration: 5;
+    
+    
+}
+button:hover{
+    width: 410px;
+    height: 50px;
+    background-color: #8688ea;
+
+ }
+ img:hover{
+    width: 152px;
+    height: 152px;
+
+ }
+    
+
+
+
+body {
+    background-image: linear-gradient(to top,#5558EB 55%, #B454EB);
+    
+}
+
+ 
+
+
